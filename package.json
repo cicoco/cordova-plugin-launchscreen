@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-launchscreen",
+  "version": "1.0.0",
+  "description": "cordova launchscreen",
+  "cordova": {
+    "id": "cordova-plugin-launchscreen",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicoco/cordova-plugin-launchscreen.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "tafiagu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cicoco/cordova-plugin-launchscreen/issues"
+  },
+  "homepage": "https://github.com/cicoco/cordova-plugin-launchscreen#readme"
+}
