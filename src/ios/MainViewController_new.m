@@ -26,6 +26,7 @@
 //
 
 #import "MainViewController.h"
+
 @interface MainViewController()
 @property(nonatomic,strong,readwrite) UIImageView *splashView;
 @end

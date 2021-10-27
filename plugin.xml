@@ -3,6 +3,12 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-plugin-launchscreen</name>
-    <hook src="scripts/add.js" type="after_prepare" />
-    <hook src="scripts/uninstall.js" type="before_plugin_uninstall" />
+    <platform name="android">
+        <hook type="after_plugin_add" src="scripts/add_android.js" />
+        <hook type="before_plugin_uninstall" src="scripts/uninstall_android.js" />
+    </platform>
+    <platform name="ios">
+        <hook type="after_plugin_add" src="scripts/add_ios.js" />
+        <hook type="before_plugin_uninstall" src="scripts/uninstall_ios.js" />
+    </platform>
 </plugin>
