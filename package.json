@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-launchscreen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cordova launchscreen",
   "cordova": {
     "id": "cordova-plugin-launchscreen",

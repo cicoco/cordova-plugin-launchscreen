@@ -198,7 +198,7 @@ public class MainActivity extends CordovaActivity {
             mChildOfContent.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 public void onGlobalLayout() {
                     //过滤网页条件
-                    if (!TextUtils.isEmpty(webView.getUrl()) && webView.getUrl().endsWith("login")) {
+                    if (!TextUtils.isEmpty(webView.getUrl())) {
                         possiblyResizeChildOfContent();
                     }
                 }
