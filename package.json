@@ -1,12 +1,11 @@
 {
   "name": "cordova-plugin-launchscreen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cordova launchscreen",
   "cordova": {
     "id": "cordova-plugin-launchscreen",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
